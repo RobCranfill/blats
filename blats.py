@@ -47,9 +47,9 @@ if __name__ == "__main__":
 
     utc = pytz.UTC
     now = utc.localize(datetime.now()).time()
-    print(f"Current time is {now}")
 
     if TEST:
+        print(f"Current time is {now}")
         print(f"before rise? {now < rise}")
         print(f"after  rise? {now > rise}")
         print(f"before set?  {now < set}")
