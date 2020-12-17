@@ -9,7 +9,7 @@ Example cron entry:
 
 Requires:
 * Raspberry Pi with 7-inch LCD touchscreen version 1.1 or newer
-* https://rpi-backlight.readthedocs.io/en/latest/index.html#
-* https://github.com/SatAgro/suntime
+* https://rpi-backlight.readthedocs.io/en/latest/ (pip3 install rpi_backlight)
+* https://github.com/SatAgro/suntime (pip3 install suntime)
 * You must also either run this as root (not recommended), or set the permissions for the device (pseudo-)files as shown in the included "udev" rules.
 
