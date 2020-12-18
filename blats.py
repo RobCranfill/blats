@@ -69,5 +69,5 @@ if __name__ == "__main__":
         print("Test mode - NOT setting")
     else:
         fadeTo(backlight * 100, 5)
-        print(f"Set backlight to {backlight} at {now}")
+        print(f"Set backlight to {backlight} at {now.strftime('%H:%m:%S')}")
 
