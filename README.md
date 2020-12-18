@@ -7,6 +7,7 @@ Example cron entry:
     0 * * * * /home/pi/proj/blats/blats.sh
 ``` 
 
+
 Requires:
 * Raspberry Pi with 7-inch LCD touchscreen version 1.1 or newer
 * https://rpi-backlight.readthedocs.io/en/latest/ (pip3 install rpi_backlight)
