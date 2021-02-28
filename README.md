@@ -1,6 +1,8 @@
 # blats - Back Light According To Sun 
 A Python applet to set the backlight of the RPi's LCD according to the time of day.
-To be run with cron.
+To be run with cron. 
+
+This is somewhat obsoleted by my "blatb" project, which uses an ambient light sensor.
 
 Example cron entry:
 ``` 
